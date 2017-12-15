@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import Header from '../containers/Header'
 import HeroSection from '../containers/HeroSection'
 import LearnMoreSection from '../containers/LearnMoreSection'
@@ -23,6 +24,19 @@ const Home = (props) => {
       <Footer />
     </div>
   )
+}
+
+const { string, func } = PropTypes
+
+Home.defaultProps = {
+  headerClass: ''
+}
+
+Home.propTypes = {
+  headerClass: string.isRequired,
+  animateHeader: func.isRequired,
+  animateLearnMoreItems: func.isRequired,
+  animateLetters: func.isRequired
 }
 
 export default Home
