@@ -5,10 +5,8 @@ import SearchBar from '../components/SearchBar'
 const FooterSection = () => {
   return (
     <footer className="footer">
-      <div className="footer-content">
-        <Logo className="logo-footer" />
-        <SearchBar />
-      </div>
+      <Logo className="logo-footer" />
+      <SearchBar />
     </footer>
   )
 }

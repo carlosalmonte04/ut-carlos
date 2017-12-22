@@ -18,7 +18,7 @@ const VotingItemsSection = () => {
                 resignation, if earlier. "
         />
         <VotingItem
-          title="Apointing the Auditor"
+          title="Appointing the Auditor"
           text="PricewaterhouseCoopers LLP (PwC) has been our 
                 external auditor since 1983. The Board, on the 
                 recommendation of the Audit Committee, recommends 

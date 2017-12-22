@@ -9,7 +9,8 @@ const AnnualMeetingItem = (props) => {
       </div>
       <div className="annual-meeting-item-where">
         <span>Where</span>
-        <p>{props.where}</p>
+        <p>{props.where.placeName}</p>
+        {props.where.placeAddr.split("\n").map(addr => <p key={addr.slice(0, 4)}>{addr}</p>)}
       </div>
     </div>
   )

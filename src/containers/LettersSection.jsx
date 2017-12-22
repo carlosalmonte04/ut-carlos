@@ -8,7 +8,7 @@ const LettersSection = (props) => {
   return (
     <section className="letters">
       <Waypoint onEnter={props.animateLetters}>
-        <div>
+        <div className="letters-content-wrapper">
           <LetterItem 
             title="Letter from the Executive Chairman"
             intro="At this time last year, we told you what we planned to do in 2016. 

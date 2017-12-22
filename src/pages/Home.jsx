@@ -9,12 +9,14 @@ import AdditionalInfoSection from '../containers/AdditionalInfoSection'
 import VotingItemsSection from '../containers/VotingItemsSection'
 import AnnualMeetingSection from '../containers/AnnualMeetingSection'
 import Footer from '../containers/Footer'
+import Waypoint from 'react-waypoint'
 
 const Home = (props) => {
   return (
     <div className="Home">
       <Header headerClass={props.headerClass} />
       <HeroSection animateHeader={props.animateHeader} />
+      <Waypoint onEnter={props.animateLearnMoreItems} />
       <LearnMoreSection animateLearnMoreItems={props.animateLearnMoreItems} />
       <StatsSection />
       <LettersSection animateLetters={props.animateLetters} />

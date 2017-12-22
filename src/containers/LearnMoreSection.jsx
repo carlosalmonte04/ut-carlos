@@ -3,12 +3,10 @@ import LearnMoreItem from '../components/LearnMoreItem'
 import boardPictureUrl from '../assets/2xour-board.jpg'
 import companyPictureUrl from '../assets/2xour-company.jpg'
 import payPictureUrl from '../assets/2xour-pay.jpg'
-import Waypoint from 'react-waypoint'
 
 const LearnMoreSection = (props) => {
   return (
     <section className="learn-more">
-      <Waypoint onEnter={props.animateLearnMoreItems} />
       <LearnMoreItem bgUrl={boardPictureUrl} flex={0.25} title="Our Board" />
       <LearnMoreItem bgUrl={companyPictureUrl} flex={0.5} title="Our Company" />
       <LearnMoreItem bgUrl={payPictureUrl} flex={0.25} title="Our Pay" />

@@ -9,7 +9,10 @@ const VotingDetailsSection = (props) => {
         <div className="annual-meeting-items-container">
           <AnnualMeetingItem
             when="Tuesday, April 13th, 2018 9:30 AM PDT"
-            where="Hotel Name Goes Here 99 Union Street Los Angeles, CA 98101"
+            where={{
+              placeName: "Hotel Name Goes Here",
+              placeAddr: "99 Union Street \n Los Angeles, CA 98101"
+            }}
           />
         </div>
       </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const RightArrow = (props) => {
   return (
-    <svg width="75px" height="100px" viewBox="0 0 61 2" version="1.1">
+    <svg width="60px" height="100px" viewBox="0 0 61 2" version="1.1">
         <desc>Created with Sketch.</desc>
         <defs></defs>
         <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
