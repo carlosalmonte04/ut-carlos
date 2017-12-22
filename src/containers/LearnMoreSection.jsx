@@ -7,9 +7,9 @@ import payPictureUrl from '../assets/2xour-pay.jpg'
 const LearnMoreSection = (props) => {
   return (
     <section className="learn-more">
-      <LearnMoreItem bgUrl={boardPictureUrl} flex={0.25} title="Our Board" />
-      <LearnMoreItem bgUrl={companyPictureUrl} flex={0.5} title="Our Company" />
-      <LearnMoreItem bgUrl={payPictureUrl} flex={0.25} title="Our Pay" />
+      <LearnMoreItem bgUrl={boardPictureUrl} title="Our Board" />
+      <LearnMoreItem bgUrl={companyPictureUrl} title="Our Company" main />
+      <LearnMoreItem bgUrl={payPictureUrl} title="Our Pay" />
     </section>
   )
 }
