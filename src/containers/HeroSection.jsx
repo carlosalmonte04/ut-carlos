@@ -12,7 +12,7 @@ const HeroSection = (props) => {
           <h1 className="hero-post-title">Barrick: Delivering For Shareholders</h1>
           <Waypoint onEnter={props.animateHeader} onLeave={props.animateHeader}>
             <div className="hero-post-play">
-              <PlayMediaButton size={75} hero/>
+              <PlayMediaButton size={73} hero/>
               <span>2018 Proxy</span>
             </div>
           </Waypoint>
